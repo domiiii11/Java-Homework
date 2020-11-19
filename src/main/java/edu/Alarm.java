@@ -1,5 +1,7 @@
 package edu;
 
+import org.w3c.dom.ls.LSOutput;
+
 // Reads: AlarmSystem is a Beeper.
 // Or better: can beep.
 public class Alarm implements Beeper {
@@ -7,6 +9,10 @@ public class Alarm implements Beeper {
 
     // Needed to be able to test beep method.
     private final ConsoleWriter writer;
+
+
+
+
 
     public Alarm(ConsoleWriter writer){
         this.writer = writer;
